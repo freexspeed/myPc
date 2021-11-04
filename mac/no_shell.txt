@@ -1,0 +1,16 @@
+Mac
+
+svn
+SnailSVN	//类似windos的svn。  没有brew
+
+不想花银子，选择svnX2；
+要砸钱的主儿，选择Cornerstone3；  7天试用
+无视Versions1.3。
+
+
+几天试了试 git-svn(1) 配合 SourceTree 之后终于舒服多了
+
+截图：
+xnip  //app store  和qq的很像
+ishot  //app store 和qq的很像  这个感觉上最好
+Cleanshot   //官网下载 收费
