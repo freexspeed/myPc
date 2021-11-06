@@ -3,9 +3,10 @@ Mac
 svn
 SnailSVN	//类似windos的svn。  没有brew
 
-不想花银子，选择svnX2；
+不想花银子，选择svnX2； https://subversion.assembla.com/svn/svnx/tags/  比较老了(v2.0.1不能在12.0.1上跑了)
 要砸钱的主儿，选择Cornerstone3；  7天试用
 无视Versions1.3。
+sourcetree + git-svn 
 
 
 几天试了试 git-svn(1) 配合 SourceTree 之后终于舒服多了
@@ -14,3 +15,7 @@ SnailSVN	//类似windos的svn。  没有brew
 xnip  //app store  和qq的很像
 ishot  //app store 和qq的很像  这个感觉上最好
 Cleanshot   //官网下载 收费
+
+redis:
+Redis Desktop Manager  //收费
+medis2 https://apps.apple.com/cn/app/medis-2-gui-for-redis/id1579200037
