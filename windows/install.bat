@@ -31,3 +31,7 @@ choco install goland -y
 choco install eclipse -y
 choco install intellijidea-ultimate -y
 choco install microsoft-windows-terminal -y
+choco install files -y
+
+#need download nvm-windows first
+#nvm install 8.17.0     #list https://nodejs.org/en/download/releases/

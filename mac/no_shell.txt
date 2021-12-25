@@ -19,3 +19,17 @@ Cleanshot   //官网下载 收费
 redis:
 Redis Desktop Manager  //收费
 medis2 https://apps.apple.com/cn/app/medis-2-gui-for-redis/id1579200037
+
+https://www.cnblogs.com/98record/p/13733200.html
+macOS提示“将对您的电脑造成伤害……“进阶版
+
+https://www.getapp.com/project-management-planning-software/project-management/f/communication-management/
+
+https://www.renfei.net/posts/1003420  pd16破解
+
+
+https://www.sunqi.org/parallels-desktop-17-crack.html 不用激活 启动工具跳过验证
+
+https://github.com/vran-dev/PrettyZoo/releases  prettyzoo可视化工具
+xattr -rc /Applications/prettyZoo.app
+

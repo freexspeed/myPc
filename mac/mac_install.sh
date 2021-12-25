@@ -9,11 +9,12 @@ source ~/.zshrc
 brew tap railwaycat/emacsmacport
 brew install --cask emacs-mac-spacemacs-icon
 
-mkdir temp
-wget -O temp/spacemacs-master.zip https://codeload.github.com/syl20bnr/spacemacs/zip/master 
-rm -rf ~/emacs.d
-unzip -o temp/spacemacs-master.zip -d ~/
-mv ~/spacemacs-master ~/.emacs.d
+# mkdir temp
+# wget -O temp/spacemacs-master.zip https://codeload.github.com/syl20bnr/spacemacs/zip/master
+# rm -rf ~/emacs.d
+# unzip -o temp/spacemacs-master.zip -d ~/
+# mv ~/spacemacs-master ~/.emacs.d
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 brew install --cask intellij-idea
 
@@ -35,6 +36,15 @@ brew install Snipaste   #截图
 brew install jietu      #截图 腾讯出的
 brew install rdesktop   #windows 远程 命令行？ https://github.com/rdesktop/rdesktop
 #brew install razorsql  #for sqlserver  30天
+brew install postman
+brew install --case visual-studio-code
+brew install VSCodium
+brew install atom
+brew install Brackets
+brew install tcping
+#picture
+brew install Krita
+brew install PaintBrush     #小巧但有点bug
 
 #redis
 brew install redis
@@ -44,6 +54,9 @@ brew install iredis     #命令行工具 https://iredis.io/#install
 #not usual
 brew install gimp       #图形编辑
 
+brew install yinxiangbiji   #国内版
+brew install everynote      #国际版
+brew install LANDrop
 
 
 #need root
@@ -56,11 +69,10 @@ sudo launchctl load -w /Library/LaunchDaemons/redis-server.plist
 #https://qiita.com/ota42y/items/0364d1da7cbf90df3dc4
 
 #mysql
-sudo cp -f mysql/mysql.plist /Library/LaunchDaemons/ 
-sudo launchctl load -w /Library/LaunchDaemons/mysql.plist 
+sudo cp -f mysql/mysql.plist /Library/LaunchDaemons/
+sudo launchctl load -w /Library/LaunchDaemons/mysql.plist
 
 #打开任何来源
 sudo spctl --master-disable
 #关闭任何来源
 #sudo spctl --master-enable
-
