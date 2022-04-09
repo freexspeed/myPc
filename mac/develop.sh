@@ -73,7 +73,17 @@ wget -O /usr/local/bin/composer https://getcomposer.org/download/2.1.14/composer
 chmod +x /usr/local/bin/composer
 #redis extension
 wget -O temp/redis.tgz https://pecl.php.net/get/redis-5.3.5.tgz
+tar -xvf temp/redis.tgz -C temp
+cd temp/redis-5.3.5
+phpize
+./configure
+make
+make install        #/usr/local/lib/php/pecl/20190902/redis.so -> /usr/local/Cellar/php@7.4/7.4.26_1/pecl/20190902/redis.so
+
 
 #brew install composer #安装composer，一个PHP包管理工具 这样装版本可能不对
 #composer global require "laravel/installer" #安装laravel 不需要 这个不是全局的
 cp php/php-ext-xdebug.ini /usr/local/etc/php/7.4/conf.d
+
+#ios app
+brew install cocoapods
