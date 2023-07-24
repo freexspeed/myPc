@@ -33,3 +33,16 @@ https://www.sunqi.org/parallels-desktop-17-crack.html 不用激活 启动工具�
 https://github.com/vran-dev/PrettyZoo/releases  prettyzoo可视化工具
 xattr -rc /Applications/prettyZoo.app
 
+
+2022.4.23:
+PD中
+
+cleaner xcode
+devcleaner for xcode
+
+安卓模拟器:
+mumu(m1,m2不支持)
+腾讯手游助手 for Mac(2021.停运)
+bluestacks https://www.bluestacks.com/download.html (m1,m2不支持)
+
+easyres 刷新率

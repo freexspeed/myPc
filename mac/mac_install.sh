@@ -22,12 +22,14 @@ git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
 brew install --cask intellij-idea
 
 
-#rm -rf /usr/local/var/mysql
-#brew install mysql@5.7
+rm -rf /usr/local/var/mysql
+brew install mysql@5.7
+#version-11.x  /etc Homebrew 3.4.5
 #cp -f mysql/my.cnf /usr/local/etc/my.cnf
 #sudo chown -R _mysql /usr/local/var/mysql
 #sudo chmod -R o+rwx /usr/local/var/mysql
 #/usr/local/var/mysql目录下的*.local.err创建可能是root的属性，需要再次chown mysql
+#version-12.3.1  /opt   Homebrew 3.4.6
 
 brew tap homebrew/services
 #brew link mysql@5.7 --force
@@ -37,7 +39,7 @@ brew install --cask dbeaver-community   #依赖java环境，下载驱动失败�
 brew install TablePlus
 brew install Snipaste   #截图
 brew install jietu      #截图 腾讯出的
-brew install --cask snip  #https://snip.qq.com/
+brew install --cask snip  #https://snip.qq.com/  对双屏支持不好
 brew install rdesktop   #windows 远程 命令行？ https://github.com/rdesktop/rdesktop
 #brew install razorsql  #for sqlserver  30天
 brew install postman
@@ -51,12 +53,14 @@ brew install Krita
 brew install PaintBrush     #小巧但有点bug
 
 brew install mos            #鼠标滚轮
+brew install htop
 
 brew install youdaodict
 brew install moefe-google-translate
+brew install --cask android-file-transfer   #文件传进android手机
 
 #redis
-brew install redis
+brew install redis      #/opt/homebrew/etc/redis.conf
 brew install iredis     #命令行工具 https://iredis.io/#install
 
 
@@ -73,6 +77,8 @@ brew install --cask wiznote
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 brew install --cask squirrel    #rime输入法
+brew install folx   #bt下载
+brew install Motrix #bt下载
 
 #bash high version
 brew install bash   #/usr/local/bin/bash
@@ -99,6 +105,7 @@ sudo spctl --master-disable
 brew install google-chrome
 brew install --cask microsoft-edge
 brew install chromium
+brew install --cask opera
 brew install --cask firefox
 brew install --cask oss-browser
 brew install --cask iterm2
@@ -110,6 +117,7 @@ brew install --cask messenger
 
 brew install alfred
 brew install git-svn
+brew install --cask the-unarchiver
 
 brew install fork
 brew install --cask github
@@ -118,11 +126,14 @@ brew install --cask sourcetree
 brew install --cask beyond-compare
 
 brew install autojump
-brew install mlocate
 
+brew install --cask vmware-fusion
+#brew install --cask parallels
 brew install --cask futubull
 brew install --cask wechat
 brew install --cask tencent-lemon
+brew install --cask cleanmymac-zh
+brew install --cask baidunetdisk
 brew install --cask dingtalk   #国内版
 brew install --cask dingtalk-lite   #国际版(轻量)
  #海外http://www.dingtalk.com
@@ -138,10 +149,19 @@ brew install --cask mpv
 brew install --cask iina        #https://github.com/iina/iina (mpv的增强功能)
 brew install --cask iina-plus   #支持弹幕的iina插件?
 brew install --cask yuque       #note https://www.yuque.com/
+# brew install downie             #全网视频下载神器(14天)
 
 brew install --cask another-redis-desktop-manager   #appstore赞助版收费 https://github.com/qishibo/AnotherRedisDesktopManager/ 
+sudo xattr -rd com.apple.quarantine /Applications/Another\ Redis\ Desktop\ Manager.app  #another-redis-desktop-manager打开失败的情况需要
 sudo spctl --master-disable
 sudo xattr -rd com.apple.quarantine /Applications/Another\ Redis\ Desktop\ Manager.app
+brew install --cask microsoft-remote-desktop
+
+brew install --cask timche-gmail-desktop
+#brew install --cask mia-for-gmail   #更像一个插件,不是很习惯
+brew install --cask mailmaster
+
+brew install --cask android-studio
 
 brew install wget
 brew install ssh-copy-id

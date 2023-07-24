@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 #nodejs
 brew install nvm
 #nvm node_mirror https://npm.taobao.org/mirrors/node/   //使用淘宝镜像
